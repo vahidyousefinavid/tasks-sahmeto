@@ -1,0 +1,18 @@
+.Tag{
+    cursor: pointer;
+    background: #e9e9e9;
+    border-radius: 3px;
+    padding: 3px;
+    color: #545454c9;
+    padding-right: 9px;
+    padding-left: 9px;
+}
+.ActiveTag{
+    cursor: pointer;
+    background: green;
+    border-radius: 3px;
+    padding: 3px;
+    color: #fcfcfcc9;
+    padding-right: 9px;
+    padding-left: 9px;
+}

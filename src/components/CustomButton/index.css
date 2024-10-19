@@ -1,0 +1,14 @@
+.RootBt {
+    padding: 10px 8px;
+    text-align: center;
+    text-transform: uppercase;
+    transition: 0.5s;
+    background-size: 200% auto;
+    color: white;
+    border-radius: 6px
+}
+.RootBt:hover{
+    background-position: right center; 
+    color: #fff;
+    text-decoration: none
+}

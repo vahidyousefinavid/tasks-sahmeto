@@ -1,0 +1,59 @@
+.RootItem {
+    display: flex;
+    box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.5rem 1.6875rem 0rem !important;
+    border-radius: 12px;
+    max-height: 220px;
+    max-width: 30%;
+    width: 100%; 
+    gap: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    margin: 1rem; 
+    box-sizing: border-box;
+}
+
+.DateText {
+    font-size: 15px;
+    color: darkgreen;
+}
+
+.MainSection{
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+}
+.EditBt {
+    display: flex;
+    background: #e9e9e9;
+    padding: 3px;
+    min-width: 100%;
+    justify-content: center;
+    border-radius: 6px;
+    box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.5rem 1.6875rem 0rem !important;
+
+}
+.ButtonDiv{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+}
+.RemoveBt {
+    display: flex;
+    background: #cf1010;
+    padding: 3px;
+    min-width: 100%;
+    justify-content: center;
+    border-radius: 6px;
+    color: #ffff;
+    box-shadow: rgba(0, 0, 0, 0.2) 0rem 0.5rem 1.6875rem 0rem !important;
+
+}
+
+@media (max-width: 768px) {
+    .RootItem {
+        max-width: 90%; 
+    }
+}
